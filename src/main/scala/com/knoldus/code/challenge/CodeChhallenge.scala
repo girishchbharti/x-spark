@@ -1,4 +1,4 @@
-package com.knoldus
+package com.knoldus.code.challenge
 
 /**
  * Created by knoldus on 19/7/16.

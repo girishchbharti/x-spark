@@ -1,7 +1,7 @@
-package com.knoldus.spark
+package com.knoldus.spark.sessions.assignments
 
-import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.rdd.RDD
+import org.apache.spark.{SparkConf, SparkContext}
 
 
 /**
