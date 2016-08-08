@@ -1,35 +1,18 @@
 package com.knoldus.code.challenge
 
 /**
- * Created by knoldus on 19/7/16.
+ * Created by knoldus on 20/7/16.
  */
-object CodeChhallenge extends App{
+object GrandParentsApp extends App{
 
   val distance = FrogAndJumps.distance(11)
+
   println(s"TOTAL DISTANCE COVERED: $distance")
 
   val grapdParents = GrandParents.grandParents(Map("A" -> Set("B", "C"), "F" -> Set("B"), "B" -> Set("D", "E")))
 
   println(s"LIST OF GRAND PARENTS: $grapdParents")
 }
-
-/**
- * This class contain a function to calculate the distance covered by a frog
- * CONDOTIONS:
- * A frog hops in his
- * 1st attempt-5 mt.
- * 2nd attempt-10 mt.
- * 3rd attempt-20 mt.
- *
- * Write an algo to count the total number of distance covered by frog on the basis of user input attempts.
- * for eg.
- * INPUT- 11
- * OUTPUT- 120 mt
- */
-object FrogAndJumps{
-  def distance(attempts: Int): Int = if(attempts >= 0){distance(attempts - 1) +  (((attempts % 3) + 1) * 5 )}else{0}
-}
-
 
 object GrandParents{
 

@@ -1,6 +1,6 @@
-package com.knoldus.spark
+package com.knoldus.spark.sessions.session1
 
-import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.{SparkConf, SparkContext}
 
 /**
  * Created by knoldus on 16/7/16.
